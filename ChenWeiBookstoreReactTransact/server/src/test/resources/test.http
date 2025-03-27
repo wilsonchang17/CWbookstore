@@ -1,0 +1,48 @@
+POST http://localhost:8080/ChenWeiBookstoreReactTransact/api/orders
+Content-Type: application/json
+
+{
+  "customerForm": {
+    "name": "Sophia",
+    "address": "2251 pimmit drive",
+    "phone": "5715947580",
+    "email": "sophia@example.com",
+    "ccNumber": "4111111111111111",
+    "ccExpiryMonth": "3",
+    "ccExpiryYear": "2025"
+  },
+  "cart": {
+    "itemArray": [
+      {
+        "id": 1002,
+        "quantity": 1,
+        "book": {
+          "bookId": 1002,
+          "title": "Dune Messiah",
+          "author": "Frank Herbert",
+          "description": "",
+          "price": 7,
+          "rating": 0,
+          "isPublic": false,
+          "isFeatured": false,
+          "categoryId": 1001
+        }
+      },
+      {
+        "id": 1003,
+        "quantity": 1,
+        "book": {
+          "bookId": 1003,
+          "title": "The Maze Runner",
+          "author": "James Dashner",
+          "description": "",
+          "price": 6,
+          "rating": 0,
+          "isPublic": false,
+          "isFeatured": false,
+          "categoryId": 1001
+        }
+      }
+    ]
+  }
+}
