@@ -26,5 +26,5 @@ A responsive and interactive full-stack bookstore shopping application built wit
 ![E-commerce Shopping Platform](bookstore.png)
 
 ## Project Timeline
-- **Duration:** August 2024 - Present
+- **Duration:** August 2024 - December 2024
 
